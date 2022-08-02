@@ -81,6 +81,15 @@ const hodgepodge2 = [5, "Hola", 43, -34, "greetings", true]
 // PASS
 
 // b) Create the function that makes the test pass.
+// Pseudo Code
+// Declare a function called remainder
+// Set parameter to array
+// Declare a variable called numbers and let its value be the array
+// Use .filter to iterate over the array and return a subset of the array.
+// Set a conditional statement that returns true or false if the typeOf value is strictly a number
+// Return number.map modulo 3 
+// Compare terminal output with expected output
+
 
 const remainder = (array) => {
   let numbers = array.filter(value => {
@@ -116,6 +125,14 @@ const cubeAndSum2 = [0, 5, 10]
 // PASS
 
 // b) Create the function that makes the test pass.
+// Pseudo Code
+// Declare a function called cubed
+// Set parameter to array
+// Declare a variable called numsCubed and let its value be the array
+// Use .map to iterate over the array
+// Use Math.pow to cube the values of the array by 3
+// Return numsCubed.reduce to get the sum of the array 
+// Compare terminal output to expected output.
 
 const cubed = (array) => {
   let numsCubed = array.map(value => Math.pow(value,3)) 
